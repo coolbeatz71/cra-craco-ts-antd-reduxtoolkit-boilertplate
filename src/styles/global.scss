@@ -1,0 +1,27 @@
+@import 'colors.scss';
+@import 'dimensions.scss';
+
+[class~='ant-form-item-explain-error'] {
+    margin-top: 0.2rem;
+}
+
+[class~='ant-layout'] {
+    background: $background;
+}
+
+[class~='ant-layout-header'] {
+    padding: 0 $padding;
+}
+
+[data-content-padding] {
+    padding: calc(#{$content-padding} / 2) 0;
+}
+
+[class~='anticon'] {
+    vertical-align: middle;
+}
+
+[class~='ant-form-item-with-help'],
+[class~='ant-form-item-has-error'] {
+    margin-bottom: $padding !important;
+}
